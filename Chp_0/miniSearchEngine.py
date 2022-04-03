@@ -30,3 +30,11 @@ def makeInverseIndex(strlist):
     return mydict
 
 print(makeInverseIndex(stories))
+
+#enumerate
+'''
+Often, when dealing with iterators, we also get a need to keep a count of iterations. Enumerate() method adds a counter to an iterable and return 
+it in a form of enumerating object can then be used directly for loops or converted into a list of tuples using the list() method
+
+enumerate(iterable, start=0)
+'''
